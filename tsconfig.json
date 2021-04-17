@@ -1,0 +1,64 @@
+{
+  "compilerOptions": {
+    "module": "ES2015",
+    "target": "ES2015",
+    "strict": true,
+    "noEmitOnError": true
+  }
+}
+//  "include": [
+//    /*
+//    这个地方的/**表示任意目录，
+//    *表示任意文件
+//    */
+//
+//    "./src/**/*"
+//  ]
+//  ,
+//  "exclude": [
+//    //这个地方是不需要被编译的文件
+//    "node_modules"
+//  ],
+//  //当前配置文件中会自动包含src目录下的base.json中的所有配置信息
+//  "extends": "./src/base",
+//
+//  //这个类似于include，文件少时可以使用
+//  "files": [
+//"core.ts",
+//    "sys.ts",
+//    "type.ts",
+//    "tsc.ts",
+//    "checker.ts"
+//  ],
+//  "compilerOptions": {
+//    //target用来指定ts被编译为ES的版本
+//    "target": "ES2015",
+//    //module指定要使用的模块化的规范
+//    "module": "ES2015",
+//    //outDir用来指定编译后js文件所在的目录
+//    "outDir": "./src",
+//    //是否对js文件进行编译，默认是true
+//    "allowJs": true,
+//    //是否检查js代码是否符合语法规范，默认是false
+//    "checkJs": true,
+//    //是否移除注释
+//    "removeComments": true,
+//    //不生成编译后的文件,这个不常用
+//    "noEmit": false,
+//    //当有错误的时候，不生成编译文件
+//    "noEmitOnError": true,
+//
+//    //对编译进行检查的配置
+//    //严格检查的总开关，它如果关，下面所有的都关
+//    "strict": true,
+//    //用来设置编译后的文件是否使用严格模式，默认是false
+//    "alwaysStrict": true,
+//    //不允许隐式的any类型
+//    "noImplicitAny": true,
+//    //不允许不明确类型的this
+//    "noImplicitThis": true,
+//    //严格的检查空值
+//    "strictNullChecks": true,
+//    //严格检查的总开关
+//    "strict": true
+//  }
